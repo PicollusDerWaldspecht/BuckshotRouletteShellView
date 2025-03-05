@@ -6,7 +6,7 @@ A Tutorial To Create a Simple Shell View Hack for the Game Buckshot Roulette
 2. Open the decompiled game with **Godot Editor 4.1.1**.
 3. Install **godotsteam** (Godot 4.1.1 - Steamworks 1.58 - GodotSteam GDExtension 4.4.1) into the project; otherwise, it won't work properly.
 4. Locate the function `GenerateRandomSequence` in `res://multiplayer/scripts/global_scripts/MP_RoundManager.gd`.
-5. Observe that the function is called every time the shotgun is loaded on the host side. Check out the code at the end of the function:
+5. Observe that the function it's called every time the shotgun is loaded on the host side. Check out the code at the end of the function:
    ```gd
    var dict = {
        "sequence": sequence,
