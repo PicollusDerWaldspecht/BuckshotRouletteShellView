@@ -18,15 +18,13 @@ A Tutorial To Create a Simple Shell View Hack for the Game Buckshot Roulette
    dict_send.erase("sequence_in_shotgun")
    game_state.MAIN_active_sequence_dict = dict
    game_state.MAIN_active_sequence_dict_send = dict_send
-```
-```
 It creates a dictionary that will be then sent to other players.
 According to an erase call, this info is hidden from clients (Guess to prevent cheating).
 And that means it should be exactly what you need.
 6. Add those lines after those:
 ```
-	print("!!!HACK INFO: Shells in shotgun")
-	print(dict["sequence_in_shotgun"])
+print("!!!HACK INFO: Shells in shotgun")
+print(dict["sequence_in_shotgun"])
 ```
 7. Build it.
 8. You did it, yay! Now you can see shotgun ammo through console (Launch game binary through command line) when you play as host.
