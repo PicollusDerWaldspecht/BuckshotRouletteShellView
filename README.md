@@ -27,4 +27,4 @@ print("!!!HACK INFO: Shells in shotgun")
 print(dict["sequence_in_shotgun"])
 ```
 7. Build it.
-8. You did it, yay! Now you can see shotgun ammo through console (Launch game binary through command line) when you play as host.
+8. You did it, yay! Now you can see shotgun ammo through the console (Launch game binary through command line) when you play as a host.
